@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>portfolio page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- css initialize: css초기화 -->
+    <link rel="stylesheet" href="./css/initial.min.css">
+    <!-- layout css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- jquery 라이브러리 가져오기 -->
+    <script type="text/javascript" src="./js/jquery_3.5.1.js"></script>
+
+    <script type="text/javascript" src="./js/common.js"></script>
+  </head>
+
+  <body>
+    <!-- 상단 바로가기 버튼 -->
+    <div class="back-to-top">
+      <a href="#intro">
+        <!-- <img src="./img/test.svg" alt=""> -->
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m24 30.75-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z"/></svg> -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff" width="24px" height="24px"><path d="M0 0h24v24H0z" fill="none"/><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+      </a>
+    </div>
+    <header id="header">
+      <!-- 모바일 햄버거 버튼 -->
+      <input type="checkbox" id="gnbcheck" name="gnbcheck">
+      <label for="gnbcheck" id="gnbbtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <h1 id="top-logo"><a href="#">logo</a></h1>
+      <nav id="gnb">
+        <label for="gnbcheck" id="mobile-close-btn"></label>
+        <ul>
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#myprofile">MyProfile</a></li>
+          <li><a href="#myportfolio">MyPortFolio</a></li>
+          <li><a href="#myskill">MySkill</a></li>
+          <li><a href="#ourclients">OurClients</a></li>
+          <li><a href="#mytool">MyTool</a></li>
+          <li><a href="#project">Project</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="intro"> <!-- section#intro>article>h2+p+a -->
+      <article>
+        <h2>About My Company</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="#myprofile" class="button ani-btn">get started</a>
+      </article>
+    </section>
+    <main>
+      <!-- menu section 노출영역 -->
+      <section id="myprofile">
+        <div class="row">
+          <h2>My Profile</h2>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/profile/img01.jpg" alt="my profile img" class="shadow">
+              <h3>Cherry Park</h3>
+              <div id="job">Web Publisher / front end development</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="myportfolio">
+        <div class="row">
+          <h2>MyPortfolio</h2>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/portFolio/img01.jpg" alt="portFolio img01" class="shadow">
+              <h3>MyPortfolio no.1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/portFolio/img02.jpg" alt="project img02" class="shadow">
+              <h3>MyPortfolio no.2</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/portFolio/img03.jpg" alt="project img03" class="shadow">
+              <h3>MyPortfolio no.3</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/portFolio/img04.jpg" alt="project img04" class="shadow">
+              <h3>MyPortfolio no.4</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/portFolio/img01.jpg" alt="portFolio img01" class="shadow">
+              <h3>MyPortfolio no.5</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/portFolio/img02.jpg" alt="project img02" class="shadow">
+              <h3>MyPortfolio no.6</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/portFolio/img03.jpg" alt="project img03" class="shadow">
+              <h3>MyPortfolio no.7</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/portFolio/img04.jpg" alt="project img04" class="shadow">
+              <h3>MyPortfolio no.8</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="myskill">
+        <div class="row">
+          <h2>MySkill</h2>
+          <div class="column">
+            <div class="inner none-type progressbar">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="items-wrap">
+                <div class="items">
+                  <div class="title">HTML5</div>
+                  <div class="percent">50%</div>
+                </div>
+              </div>
+              <div class="items-wrap">
+                <div class="items">
+                  <div class="title">CSS3</div>
+                  <div class="percent">80%</div>
+                </div>
+              </div>
+              <div class="items-wrap">
+                <div class="items">
+                  <div class="title">javascript</div>
+                  <div class="percent">90%</div>
+                </div>
+              </div>
+              <div class="items-wrap">
+                <div class="items">
+                  <div class="title">sass</div>
+                  <div class="percent">100%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="ourclients">
+        <div class="row">
+          <h2>OurClients</h2>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/clients/client-1.png" alt="our client img">
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/clients/client-2.png" alt="our client img">
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/clients/client-3.png" alt="our client img">
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/clients/client-4.png" alt="our client img">
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/clients/client-5.png" alt="our client img">
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/clients/client-6.png" alt="our client img">
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/clients/client-7.png" alt="our client img">
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/clients/client-8.png" alt="our client img">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="mytool">
+        <div class="row">
+          <h2>MyTool</h2>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/mytool/img01.png" alt="my tool img">
+              <h3>Cherry Park</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/mytool/img02.png" alt="my tool img">
+              <h3>Cherry Park</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/mytool/img03.png" alt="my tool img">
+              <h3>Cherry Park</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner none-type">
+              <img src="./img/mytool/img04.png" alt="my tool img">
+              <h3>Cherry Park</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="project">
+        <div class="row">
+          <h2>Project</h2>
+          <div class="column">
+            <div class="inner">
+              <img src="./img/project/img01.jpg" alt="project img01">
+              <h3>Project no.1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner">
+              <img src="./img/project/img02.jpg" alt="project img02">
+              <h3>Project no.1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner">
+              <img src="./img/project/img03.jpg" alt="project img03">
+              <h3>Project no.1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="inner">
+              <img src="./img/project/img04.jpg" alt="project img04">
+              <h3>Project no.1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="footer-top">
+        <!-- footer 상단 영역 -->
+        <div class="container">
+          <div class="row">
+            <!-- logo -->
+            <div class="column footer-logo">
+              <h3>Logo</h3>
+            </div>
+            <!-- site map -->
+            <div class="column">
+              <h4>site map</h4>
+              <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#myprofile">My Profile</a></li>
+                <li><a href="#myportfolio">My MyPortFolio</a></li>
+                <li><a href="#myskill">My Skill</a></li>
+                <li><a href="#ourclients">OurClients</a></li>
+                <li><a href="#mytool">My Tool</a></li>
+                <li><a href="#project">Project</a></li>
+              </ul>
+            </div>
+            <!-- contact us -->
+            <div class="column">
+              <h4>contact us</h4>
+              <p>
+                A108 adam street <br>
+                New York, NY 535022 <br>
+                United states <br>
+                <strong>phone :</strong><a href="tel:+82-010-0000-0000">+82-010-0000-0000</a><br>
+                <strong>E-mail :</strong><a href="mailto:mymail@naver.com">mymail@naver.com</a><br>
+              </p>
+            </div>
+            <!-- news -->
+            <div class="column news">
+              <h4>news</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+              <form>
+                <input type="search" name="search"><input type="submit" name="submit" value="search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <!-- footer 하단 영역 -->
+        <div class="copyright">
+          &copy;copyright <strong>mypage</strong> All Rights Reserved.
+        </div>
+        <div class="credits">
+          Designed By <a href="mailto:aaa@naver.com">mypage</a>.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
